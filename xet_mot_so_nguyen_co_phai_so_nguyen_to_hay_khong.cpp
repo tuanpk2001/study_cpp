@@ -5,7 +5,7 @@ using namespace std;
 
 int kiemtra(int n){
 	if(n < 2){
-		cout << "False";
+		cout << " True";
 	}
 	int dem = 0;
 	for(int i = 2; i <= sqrt(n); i++){
